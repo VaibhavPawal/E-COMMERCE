@@ -1,0 +1,157 @@
+h1{
+    text-align: center;
+    font-size: 100px;
+    margin: auto;
+}
+
+#nav{
+    display: flex;
+    justify-content:space-around ;
+    background-color: pink;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 28px;
+}
+
+#carddiv{
+    width: 250px;
+    padding: 15px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 20px;
+}
+
+#cardbtn{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#cardbtn:hover {
+    background-color: #0056b3;
+}
+
+#products{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+#shosediv{
+     width: 250px;
+    padding: 15px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 20px;
+    justify-content: center;
+
+}
+
+#shosebtn{
+     background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+#shosebtn:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+#bagdiv{
+     width: 250px;
+    padding: 15px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 20px;
+    justify-content: center;
+
+}
+
+#bagbtn{
+     background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+#bagbtn:hover {
+    background-color: #0056b3;
+}
+
+
+#watchdiv{
+      width: 250px;
+    padding: 15px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 20px;
+    justify-content: center;
+}
+
+
+#watchbtn{
+     background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+#watchbtn:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+#carddiv, #shosediv, #watchdiv ,#bagdiv {
+    width: 200px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+#carddiv img, #shosediv img, #watchdiv img ,#bagdiv img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+#carddiv h3, #shosediv h3, #watchdiv h3, #bagdiv h3 {
+    margin: 10px 0;
+}
+
+#carddiv p, #shosediv p, #watchdiv p, #bagdiv p {
+    margin: 5px 0;
+}
